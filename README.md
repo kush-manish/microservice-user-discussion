@@ -1,6 +1,7 @@
 # Backend Assignment for SDE 1
 
 ### To run the project, use the following command: `node api_gateway`.
+### Postman Collection: https://api.postman.com/collections/15230217-1283c9e1-4b8f-4c4b-8b01-609b6d30a65d?access_key=PMAT-01J20AMTXQS0DTEENCYCDHZ1SM
 
 ```
 +-------------------+       +-------------------+       +-------------------+
