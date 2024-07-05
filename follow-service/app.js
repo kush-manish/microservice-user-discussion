@@ -6,7 +6,7 @@ const followRoutes = require('./src/routes/followRoutes');
 const app = express();
 app.use(bodyParser.json());
 
-app.use('/follow', followRoutes);
+app.use('/', followRoutes);
 
 
 const PORT = process.env.PORT || 3002;

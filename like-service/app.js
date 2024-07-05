@@ -8,7 +8,7 @@ const app = express();
 app.use(bodyParser.json());
 
 
-app.use('/like', likeRoutes);
+app.use('/', likeRoutes);
 
 const PORT = process.env.PORT || 3003;
 app.listen(PORT, () => {

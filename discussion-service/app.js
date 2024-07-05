@@ -7,7 +7,7 @@ const discussRoutes = require('./src/routes/discussRoutes');
 const app = express();
 app.use(bodyParser.json());
 
-app.use('/discuss', discussRoutes);
+app.use('/', discussRoutes);
 
 
 const PORT = process.env.PORT || 3001;

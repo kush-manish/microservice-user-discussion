@@ -36,23 +36,23 @@ const followService = 'http://localhost:3002';
 const commentService = 'http://localhost:3005';
 const likeService = 'http://localhost:3003';
 
-app.use('/api', (req, res) => {
+app.use('/api/users', (req, res) => {
   apiProxy.web(req, res, { target: userService });
 });
 
-app.use('/api', (req, res) => {
+app.use('/api/discuss', (req, res) => {
   apiProxy.web(req, res, { target: discussionService });
 });
 
-app.use('/api', (req, res) => {
+app.use('/api/follow', (req, res) => {
   apiProxy.web(req, res, { target: followService });
 });
 
-app.use('/api', (req, res) => {
+app.use('/api/comments', (req, res) => {
   apiProxy.web(req, res, { target: commentService });
 });
 
-app.use('/api', (req, res) => {
+app.use('/api/like', (req, res) => {
   apiProxy.web(req, res, { target: likeService });
 });
 

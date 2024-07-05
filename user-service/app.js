@@ -5,7 +5,7 @@ const userRoutes = require('./src/routes/userRoutes');
 const app = express();
 app.use(bodyParser.json());
 
-app.use('/users', userRoutes);
+app.use('/', userRoutes);
 
 const PORT = process.env.PORT || 3004;
 app.listen(PORT, () => {

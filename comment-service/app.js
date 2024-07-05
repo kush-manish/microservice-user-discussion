@@ -8,7 +8,7 @@ const app = express();
 app.use(bodyParser.json());
 
 
-app.use('/comments', commentRoutes);
+app.use('/', commentRoutes);
 
 
 const PORT = process.env.PORT || 3005;
