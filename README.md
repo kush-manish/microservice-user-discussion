@@ -1,6 +1,6 @@
 # Backend Assignment for SDE 1
 
-### Use this command to run project: node api_gateway
+### To run the project, use the following command: `node api_gateway`.
 
 ```
 +-------------------+       +-------------------+       +-------------------+
