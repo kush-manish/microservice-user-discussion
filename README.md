@@ -2,6 +2,8 @@
 
 ### To run the project, use the following command: `node api_gateway`.
 
+### Public Postman Collection Link: https://www.postman.com/manish-kush-postman/workspace/testassignment/collection/15230217-1283c9e1-4b8f-4c4b-8b01-609b6d30a65d?action=share&creator=15230217
+
 ```
 +-------------------+       +-------------------+       +-------------------+
 |       User        |       |      Discuss      |       |      Follow       |
