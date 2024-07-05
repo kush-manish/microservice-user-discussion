@@ -4,6 +4,8 @@
 ### Postman Collection Link: https://api.postman.com/collections/15230217-1283c9e1-4b8f-4c4b-8b01-609b6d30a65d?access_key=PMAT-01J20AMTXQS0DTEENCYCDHZ1SM
 ### Also you can refer User_Doc.postman_collection.json file in git-repo root
 
+### Public Postman Collection Link: https://www.postman.com/manish-kush-postman/workspace/testassignment/collection/15230217-1283c9e1-4b8f-4c4b-8b01-609b6d30a65d?action=share&creator=15230217
+
 ```
 +-------------------+       +-------------------+       +-------------------+
 |       User        |       |      Discuss      |       |      Follow       |
